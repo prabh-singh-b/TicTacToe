@@ -1,8 +1,7 @@
 from tkinter import *
-from glbl import *
-from gui import *
+import gui
+import funcs
 
-root = Tk()
-create_board(root)
+gui.create_board()
 
 mainloop()
